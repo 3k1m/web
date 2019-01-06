@@ -1,4 +1,12 @@
 /**
+These files demonstrate using AJAX to do a GET request to read from a text file, temp.txt
+Be sure to have such a file when you try this out. Then try to change it. EVENTUALLY, the html page
+should show the update. Usually writing to a flat file is slower than with databases so it can take a really
+long time.
+*/
+
+
+/**
 This function creates an object to manage updates to the temperature file
 @param {string} file the name of the file
 @param {string} element the id of the element to update
