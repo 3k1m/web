@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example with forms</title>
+</head>
+<body>
+  <main>
+    <form>
+	  <fieldset>
+	    <!-- will only accept a name of format [CAPITAL LETTER][some lowercase letters], no spaces, 
+		nor first and last name, etc. allowed -->
+	    <label for="name_field">name: </label> <input type="text" id="name_field" name="name" required pattern="[A-Z][a-z]+" />
+	    <br/>
+	    <label for="email_field">email: </label> <input type="email" id="email_field" name="email" />
+	  </fieldset>
+	  <fieldset>
+	    <p>
+		  Pick your favourite colour.
+		</p>
+		<!-- note how all grouped options have the same name -->
+	    <label for="red">red</label>
+	    <input type="radio" value="red" id="red" name="colours" />
+		<br/>
+		<label for="yellow">yellow</label>
+	    <input type="radio" value="yellow" id="yellow" name="colours" />
+		<br/>
+		<label for="blue">blue</label>
+		<input type="radio" value="blue" id="blue" name="colours" />
+		<br/>
+	  </fieldset>
+	  <fieldset>
+	    <p>
+		  Pick the numbers you like.
+		</p>
+		<!-- note the names are arrays! -->
+	    <label for="one">1</label>
+	    <input type="checkbox" value="1" id="one" name="numbers[]" />
+		<br/>
+		<label for="two">2</label>
+	    <input type="checkbox" value="2" id="two" name="numbers[]" />
+		<br/>
+		<label for="three">3</label>
+	    <input type="checkbox" value="3" id="three" name="numbers[]" />
+		<br/>
+	  </fieldset>
+	  <fieldset>
+	    <input type="reset" value="Reset Data" />
+		<input type="submit" value="Submit Data" />
+	  </fieldset>
+	</form>
+  </main>
+</body>
+</html>
