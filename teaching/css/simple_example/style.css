@@ -1,0 +1,27 @@
+body{
+	background-color: #5376BC;	
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-family: Comic Sans MS, cursive;
+	font-size: 3em;
+	width: 25%;
+	border: 25px solid #FFD700;
+	padding: 25px;
+	margin: 25px;
+}
+
+p{
+	text-indent: 50px;
+	display: block;    
+	color: white;
+	font-size: 2em;	
+	text-shadow: -6px 6px gray;	
+}
+
+p::first-letter { 
+	font-size: 200%;
+	color: #FFD700;
+}
