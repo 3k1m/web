@@ -1,0 +1,43 @@
+section{
+	position: relative;
+	border: 5px dashed red;
+	background-color: #808080;
+	height: 900px;
+	width: 600px;
+}
+
+p{
+	opacity: 0.5;
+	background-color: white;
+	height: 40px;
+}
+
+#static{
+	position: static;
+	top: 30px;
+	right: 30px;
+}
+
+#fixed{
+	position: fixed;
+	top: 30px;
+	right: 30px; 
+}
+
+#absolute{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+#relative{
+	position: relative;
+	top: 30px;
+	right: 30px;
+}
+
+#sticky{
+	position: sticky;
+	top: 30px;
+	right: 30px;
+}
