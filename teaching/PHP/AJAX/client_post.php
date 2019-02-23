@@ -10,7 +10,7 @@
   
   if($file){ // if we could open the file to append
     fwrite($file, "{$client->company}\t{$client->name}\t{$client->email}\t");
-    for($i=0; $i<100; ++$i){ // add extra space
+    for($i=0; $i<100; ++$i){ // add extra space: in case need to edit things later
       fwrite($file, ' ');
     }
     fwrite($file, "\n");   
