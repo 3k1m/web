@@ -5,9 +5,10 @@
   This is a very minimal example. The password should be hashed and not stored in a simple flat file...
   */
 
+  session_name('Demo'); // name the session
   session_start(); // start a session
   $_SESSION['loggedin'] = false;
-  session_name('Demo'); // name the session
+ 
   
   /**
   This function determines if a user's supplied password is correct
