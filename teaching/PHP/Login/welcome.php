@@ -1,5 +1,6 @@
 #!/usr/local/bin/php
 <?php
+  session_name('Demo');
   session_start(); // start a session
 ?>
 <!DOCTYPE html>
