@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forms</title>
+</head>
+<body>
+  <main>
+    <form> <!--method="post" action="script.php"--> 
+     <fieldset>
+	   <label for="person">Name: </label> <input type="text" required id="person" name="person"/> <!-- value="your name" --> 
+	 </fieldset>
+     <fieldset>
+	   What is your favourite number?
+	   <br/>
+	   <label for="one">1</label> <input type="radio" value="1" name="fav" id="one" />
+	   <label for="two">2</label> <input type="radio" value="2" name="fav" id="two" />
+	   <label for="three">3</label> <input type="radio" value="3" name="fav" id="three" />
+	 </fieldset>
+	 <fieldset>
+	   <label for="pwd">Password: </label> <input type="password" id="pwd" name="pass"/>
+	   </fieldset>
+	 <fieldset>
+	   <input type="button" value="Click this button" onclick = "alert('hello world!');" />
+	   </fieldset>
+	 <fieldset>
+	   <input type="Submit" value="Submit"/> <input type="reset" value="Reset"/>
+	 </fieldset>
+    </form>	
+  </main>  
+</body>
+</html>
