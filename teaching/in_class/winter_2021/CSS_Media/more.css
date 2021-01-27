@@ -1,0 +1,33 @@
+::selection{
+	color: blue;
+	background-color: red;
+}
+
+#im2{
+	bottom: 50px;
+}
+
+img{
+	position: relative;
+	z-index: 1;
+}
+
+img:hover{
+	z-index: 2;
+}
+
+p::first-letter{
+	font-weight: 900;
+}
+
+@media print {
+	.no-print{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	p{
+		color: blue;
+	}
+}
